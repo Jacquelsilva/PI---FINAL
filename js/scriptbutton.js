@@ -444,35 +444,3 @@ function mudarButton_pergunta6() {
   activeButton2 = 'button_pergunta6';
 }
 
-function nothover_perguntas() {
-  if (activeButton2 === activeHover2) {
-    document.getElementById(activeButton2).style.opacity = 1;
-  }
-  else if (activeButton2 === 'button_pergunta1') {
-    document.getElementById('button_pergunta1').style.opacity = 1;
-    document.getElementById(activeHover2).style.opacity = 0.6;
-  } else if (activeButton2 === 'button_pergunta2') {
-    document.getElementById('button_pergunta2').style.opacity = 1;
-    document.getElementById(activeHover2).style.opacity = 0.6;
-  } else if (activeButton2 === 'button_pergunta3') {
-    document.getElementById('button_pergunta3').style.opacity = 1;
-    document.getElementById(activeHover2).style.opacity = 0.6;
-  } else if (activeButton2 === 'button_pergunta4') {
-    document.getElementById('button_pergunta4').style.opacity = 1;
-    document.getElementById(activeHover2).style.opacity = 0.6;
-  }  
-  else if (activeButton2 === 'button_pergunta5') {
-    document.getElementById('button_pergunta5').style.opacity = 1;
-    document.getElementById(activeHover2).style.opacity = 0.6;
-  } 
-  else if (activeButton2 === 'button_pergunta6') {
-    document.getElementById('button_pergunta6').style.opacity = 1;
-    document.getElementById(activeHover2).style.opacity = 0.6;
-  } else {
-    document.getElementById('button_pergunta1').style.opacity = 1;
-    document.getElementById('button_pergunta2').style.opacity = 1;
-    document.getElementById('button_pergunta3').style.opacity = 1;
-    document.getElementById('button_pergunta4').style.opacity = 1;
-    document.getElementById('button_pergunta5').style.opacity = 1;
-  }
-}
